@@ -5,6 +5,7 @@ export default withMermaid(
   defineConfig({
     title: 'Claude 学院',
     description: '从入门到精通的完整知识体系',
+    base: '/claude-academy/',
     lang: 'zh-CN',
     lastUpdated: true,
     cleanUrls: true,
