@@ -69,6 +69,11 @@ export default withMermaid(
           link: '/sdk/preface',
           activeMatch: '/sdk/',
         },
+        {
+          text: 'Agent 从0到1',
+          link: '/agent/preface',
+          activeMatch: '/agent/',
+        },
       ],
 
       sidebar: {
@@ -405,6 +410,57 @@ export default withMermaid(
             ],
           },
         ],
+
+        // ========== Agent 从0到1 ==========
+        '/agent/': [
+          {
+            text: '《Agent 从0到1》',
+            items: [{ text: '前言', link: '/agent/preface' }],
+          },
+          {
+            text: 'Part 1 核心概念',
+            collapsed: false,
+            items: [
+              { text: 'Ch1 什么是 Agent', link: '/agent/part1/ch01' },
+              { text: 'Ch2 ReAct 工作原理', link: '/agent/part1/ch02' },
+            ],
+          },
+          {
+            text: 'Part 2 Claude Agent 全景',
+            collapsed: false,
+            items: [
+              { text: 'Ch3 五种 Agent 形态', link: '/agent/part2/ch03' },
+            ],
+          },
+          {
+            text: 'Part 3 设计模式',
+            collapsed: false,
+            items: [
+              { text: 'Ch4 六种 Agent 模式', link: '/agent/part3/ch04' },
+            ],
+          },
+          {
+            text: 'Part 4 动手构建',
+            collapsed: false,
+            items: [
+              { text: 'Ch5 从零构建 Agent', link: '/agent/part4/ch05' },
+            ],
+          },
+          {
+            text: 'Part 5 第三方框架',
+            collapsed: false,
+            items: [
+              { text: 'Ch6 LangGraph/CrewAI/AutoGen', link: '/agent/part5/ch06' },
+            ],
+          },
+          {
+            text: 'Part 6 运维',
+            collapsed: false,
+            items: [
+              { text: 'Ch7 调试·评估·安全', link: '/agent/part6/ch07' },
+            ],
+          },
+        ],
       },
 
       socialLinks: [
@@ -412,7 +468,7 @@ export default withMermaid(
       ],
 
       footer: {
-        message: 'Claude 学院 — 六本书覆盖 Claude 全栈能力',
+        message: 'Claude 学院 — 七本书覆盖 Claude 全栈能力',
         copyright: '基于 Anthropic 官方文档与社区最佳实践 · 2026 年 4 月',
       },
 
