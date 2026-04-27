@@ -3,71 +3,66 @@ layout: home
 hero:
   name: Claude 学院
   text: 从入门到精通的完整知识体系
-  tagline: 七本书 · 76 章 · 25 万字+ — 从概念到实战，覆盖 Claude + Agent 全栈能力
+  tagline: 五本书 · 76 章 · 零重复 — 系统性掌握 Claude Code、Prompt、Agent、MCP
   actions:
     - theme: brand
       text: 从这里开始
-      link: /code/preface
+      link: /code-guide/preface
     - theme: alt
-      text: Agent 从0到1
-      link: /agent/preface
+      text: Agent 指南
+      link: /agent-guide/preface
     - theme: alt
-      text: 全部 Recipes
-      link: /recipes/part3/ch04
+      text: 企业实战
+      link: /enterprise/preface
 
 features:
   - icon: 🖥️
-    title: 《Claude Code 从零精通》
-    details: 入口级 — 安装配置、日常高效用法、Settings、Hooks、IDE 集成、CI/CD、排障。10 章。
-    link: /code/preface
+    title: 1.《Code 完全指南》
+    details: 22 章 — 安装到高级自动化。含 Cowork 桌面、Hooks、Slash Commands、Memory、20 个 Recipes。
+    link: /code-guide/preface
     linkText: 开始阅读
   - icon: 💬
-    title: 《Claude Prompt 工程实战》
-    details: 基础层 — XML 标签、Extended Thinking、Prompt Caching、CLAUDE.md、反模式防御。10 章。
-    link: /prompt/preface
+    title: 2.《Prompt 工程》
+    details: 11 章 — XML 标签、Extended Thinking、Prompt Caching、代码/数据/写作/翻译场景实战。
+    link: /prompt-guide/preface
     linkText: 开始阅读
   - icon: 🤖
-    title: 《Claude 协作全书》
-    details: 协作层 — Cowork、Agent Teams、Subagents、Worktrees、企业案例。27 章 + 3 Workshop。
-    link: /cowork/preface
+    title: 3.《Agent 完全指南》
+    details: 22 章 — 从概念到造物。ReAct 原理、Agent Teams 深度、设计模式、SDK 编程、LangGraph/CrewAI。
+    link: /agent-guide/preface
     linkText: 开始阅读
   - icon: 🔌
-    title: 《Claude MCP 全书》
-    details: 连接层 — MCP 协议、Server 生态、TypeScript/Python 构建、企业安全。12 章。
-    link: /mcp/preface
+    title: 4.《MCP 完全指南》
+    details: 20 章 — 协议解析、Server 生态、TypeScript/Python 构建、OAuth、远程部署、多 Server 编排。
+    link: /mcp-guide/preface
     linkText: 开始阅读
-  - icon: 🧠
-    title: 《Agent 从0到1》
-    details: Agent 层 — 核心概念、ReAct 原理、六种设计模式、Agent SDK 构建、LangGraph/CrewAI、调试评估。7 章。
-    link: /agent/preface
-    linkText: 开始阅读
-  - icon: 🛠️
-    title: 《高级 Recipes》+ 《Agent SDK 实战》
-    details: 实战层 — 20 个完整工作流 + 编程式构建 Agent + Slack Bot 实战 + 生产运维。10 章。
-    link: /recipes/preface
+  - icon: 🏢
+    title: 5.《企业实战与案例》
+    details: 15 章 — C 编译器案例、$47K 事故、成本优化、安全合规、团队治理、反模式清单。
+    link: /enterprise/preface
     linkText: 开始阅读
 ---
 
 <div style="text-align: center; margin: 40px 0; color: var(--vp-c-text-2);">
 
-### 推荐学习路径
+### 学习路径
 
 </div>
 
-<div style="text-align: center; margin: 20px 0; font-family: monospace; color: var(--vp-c-text-2);">
+<div style="text-align: center; margin: 20px 0; font-family: monospace; color: var(--vp-c-text-2); line-height: 2;">
 
-Code 精通 → Prompt 工程 → Agent 从0到1 → 协作全书 → MCP 全书 → Recipes
+Code 完全指南 → Prompt 工程 → Agent 完全指南 → MCP 完全指南 → 企业实战
 
 </div>
 
 <div style="text-align: center; margin: 10px 0; font-family: monospace; color: var(--vp-c-text-3); font-size: 13px;">
 
-（入口）→（基础）→（Agent 原理）→（多代理协作）→（外部连接）→（实战）
+（工具使用）→（写好 Prompt）→（理解和构建 Agent）→（连接外部世界）→（落地实践）
 
 </div>
 
 <div style="text-align: center; margin: 30px 0; color: var(--vp-c-text-3); font-size: 14px;">
 
-基于 Anthropic 官方文档、社区最佳实践和真实企业案例编写 · 2026 年 4 月
+基于 Anthropic 官方文档与社区最佳实践 · 2026 年 4 月
 
 </div>
