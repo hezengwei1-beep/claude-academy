@@ -46,10 +46,12 @@ export default withMermaid(
           ]},
           { text: 'Part 4 深度配置', collapsed: true, items: [
             { text: 'Ch10 Settings', link: '/code-guide/part4/ch10' },
+            { text: 'Ch10a System Prompt 拆解', link: '/code-guide/part4/ch10a' },
             { text: 'Ch11 权限详解', link: '/code-guide/part4/ch11' },
             { text: 'Ch12 Hooks', link: '/code-guide/part4/ch12' },
             { text: 'Ch13 Hooks 高级', link: '/code-guide/part4/ch13' },
             { text: 'Ch14 Slash Commands', link: '/code-guide/part4/ch14' },
+            { text: 'Ch14a Skills+Subagent 模板集', link: '/code-guide/part4/ch14a' },
             { text: 'Ch15 Keybindings+Memory', link: '/code-guide/part4/ch15' },
           ]},
           { text: 'Part 5 团队自动化', collapsed: true, items: [
@@ -97,6 +99,7 @@ export default withMermaid(
             { text: 'Ch1 什么是 Agent', link: '/agent-guide/part1/ch01' },
             { text: 'Ch1a 吴恩达 Agentic 框架', link: '/agent-guide/part1/ch01a' },
             { text: 'Ch2 ReAct 原理', link: '/agent-guide/part1/ch02' },
+            { text: 'Ch2a Harness 方法论', link: '/agent-guide/part1/ch02a' },
           ]},
           { text: 'Part 2 Claude Agent', collapsed: false, items: [
             { text: 'Ch3 五种形态', link: '/agent-guide/part2/ch03' },
@@ -190,6 +193,7 @@ export default withMermaid(
             { text: 'C 版本', link: '/enterprise/appendix/c' },
             { text: 'D 术语', link: '/enterprise/appendix/d' },
             { text: 'E 练习', link: '/enterprise/appendix/e' },
+            { text: 'F GitHub 高星资源', link: '/enterprise/appendix/f' },
           ]},
         ],
       },
