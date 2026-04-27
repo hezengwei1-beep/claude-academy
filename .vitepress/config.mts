@@ -95,6 +95,7 @@ export default withMermaid(
           { text: '《Agent 完全指南》', items: [{ text: '前言', link: '/agent-guide/preface' }] },
           { text: 'Part 1 概念', collapsed: false, items: [
             { text: 'Ch1 什么是 Agent', link: '/agent-guide/part1/ch01' },
+            { text: 'Ch1a 吴恩达 Agentic 框架', link: '/agent-guide/part1/ch01a' },
             { text: 'Ch2 ReAct 原理', link: '/agent-guide/part1/ch02' },
           ]},
           { text: 'Part 2 Claude Agent', collapsed: false, items: [
@@ -113,6 +114,7 @@ export default withMermaid(
           ]},
           { text: 'Part 4 模式', collapsed: true, items: [
             { text: 'Ch13 六种模式', link: '/agent-guide/part4/ch13' },
+            { text: 'Ch13a Agentic RAG', link: '/agent-guide/part4/ch13a' },
           ]},
           { text: 'Part 5 SDK', collapsed: true, items: [
             { text: 'Ch14 架构', link: '/agent-guide/part5/ch14' },
@@ -126,6 +128,7 @@ export default withMermaid(
             { text: 'Ch20 框架', link: '/agent-guide/part6/ch20' },
             { text: 'Ch21 调试', link: '/agent-guide/part6/ch21' },
             { text: 'Ch22 生产', link: '/agent-guide/part6/ch22' },
+            { text: 'Ch22a 课程导航', link: '/agent-guide/part6/ch22a' },
           ]},
         ],
         '/mcp-guide/': [
