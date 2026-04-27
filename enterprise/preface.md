@@ -20,3 +20,15 @@
 - **安全负责人**：Ch7-8（安全合规）
 - **技术 Lead**：Ch9-10（最佳实践）+ Ch6（成本）
 - **所有人**：Ch5（失败教训）——最有价值的一章
+
+## 交叉引用
+
+| 本书章节 | 技术细节请看 |
+|----------|------------|
+| Ch1-2 C 编译器案例 | [Agent 指南 Ch6-12](/agent-guide/part3/ch06) Agent Teams 的完整操作 |
+| Ch3 代码审查案例 | [Code 指南 Ch17a](/code-guide/part5/ch17a) claude-code-action 实现自动审查 |
+| Ch4 企业部署 | [Code 指南 Ch16](/code-guide/part5/ch16) IDE 集成和团队配置 |
+| Ch6 成本优化 | [Prompt 工程 Ch5](/prompt-guide/part2/ch05) Prompt Caching 省 90% |
+| Ch7 安全 | [MCP 指南 Ch12](/mcp-guide/part6/ch12) MCP 安全深度 |
+| Ch9 反模式 | [Agent 指南 Ch2a](/agent-guide/part1/ch02a) Harness 方法论避免反模式 |
+| 附录F GitHub 资源 | 持续更新的开源资源导航 |

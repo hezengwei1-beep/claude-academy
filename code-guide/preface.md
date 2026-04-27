@@ -36,3 +36,16 @@
 - **已会基础**：Part 4 → Part 5 → Part 6
 - **非技术用户**：Part 1 → Part 3（Cowork）
 - **想抄作业**：直接翻 Part 6 的 Recipes
+
+## 交叉引用
+
+本书与其他书的关联章节：
+
+| 本书章节 | 深入学习请看 |
+|----------|------------|
+| Ch5-9 Cowork | Agent 指南 Ch3 了解 Cowork 与 Agent 的关系 |
+| Ch10 Settings | Agent 指南 Ch7 了解 Agent Teams 的配置 |
+| Ch10b CLAUDE.md 案例 | Prompt 工程 Ch3 了解 XML 标签在 CLAUDE.md 中的运用 |
+| Ch12-13 Hooks | Agent 指南 Ch2a 了解 Hooks 在 Harness 体系中的位置 |
+| Ch17 CI/CD | 企业实战 Ch8 了解团队级 CI/CD 治理 |
+| Part 6 Recipes | Agent 指南 Ch6-11 了解 Recipes 中 Agent Teams 的操作细节 |
