@@ -47,6 +47,7 @@ export default withMermaid(
           { text: 'Part 4 深度配置', collapsed: true, items: [
             { text: 'Ch10 Settings', link: '/code-guide/part4/ch10' },
             { text: 'Ch10a System Prompt 拆解', link: '/code-guide/part4/ch10a' },
+            { text: 'Ch10b CLAUDE.md 真实案例', link: '/code-guide/part4/ch10b' },
             { text: 'Ch11 权限详解', link: '/code-guide/part4/ch11' },
             { text: 'Ch12 Hooks', link: '/code-guide/part4/ch12' },
             { text: 'Ch13 Hooks 高级', link: '/code-guide/part4/ch13' },
@@ -57,6 +58,7 @@ export default withMermaid(
           { text: 'Part 5 团队自动化', collapsed: true, items: [
             { text: 'Ch16 IDE 集成', link: '/code-guide/part5/ch16' },
             { text: 'Ch17 CI/CD', link: '/code-guide/part5/ch17' },
+            { text: 'Ch17a claude-code-action', link: '/code-guide/part5/ch17a' },
             { text: 'Ch18 Managed Agents', link: '/code-guide/part5/ch18' },
           ]},
           { text: 'Part 6 Recipes', collapsed: true, items: [
@@ -81,6 +83,7 @@ export default withMermaid(
             { text: 'Ch3 XML 标签', link: '/prompt-guide/part2/ch03' },
             { text: 'Ch4 Thinking', link: '/prompt-guide/part2/ch04' },
             { text: 'Ch5 Caching', link: '/prompt-guide/part2/ch05' },
+            { text: 'Ch5a Cookbook 导航', link: '/prompt-guide/part2/ch05a' },
           ]},
           { text: 'Part 3 场景', collapsed: false, items: [
             { text: 'Ch6 代码', link: '/prompt-guide/part3/ch06' },
